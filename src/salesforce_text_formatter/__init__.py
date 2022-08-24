@@ -1,1 +1,1 @@
-from salesforce_text_formatter import config_text_formatter, curated_data_sql
+from salesforce_text_formatter import config_text_formatter, curated_data_sql_formatter
