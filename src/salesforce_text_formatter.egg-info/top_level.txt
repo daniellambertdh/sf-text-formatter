@@ -1,1 +1,0 @@
-salesforce_text_formatter
