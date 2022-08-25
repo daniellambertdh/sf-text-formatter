@@ -8,6 +8,7 @@ version = "1.0.0"
 authors = [
   { name="Daniel Lambert", email="daniel.lambert@deliveryhero.com" },
 ]
+
 description = "A text formatting package for salesforce data engineers"
 readme = "README.md"
 license = { file="LICENSE" }
@@ -17,9 +18,13 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
 dependencies = [
     "wordninja",
 ]
+
+[tool.setuptools]
+packages = ["salesforce_text_formatter"]
 
 [project.urls]
 "Homepage" = "https://github.com/daniellambertdh/sf-text-formatter"
