@@ -25,6 +25,7 @@ dependencies = [
 
 [tool.setuptools]
 packages = ["salesforce_text_formatter"]
+package-dir = {"" = "src"}
 
 [project.urls]
 "Homepage" = "https://github.com/daniellambertdh/sf-text-formatter"
