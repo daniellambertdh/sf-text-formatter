@@ -1,7 +1,5 @@
 # Salesforce text formatter for Big query and config files
 
---------------------
-
 `pip install Text-Formatter-sf`
 
 --------------------
