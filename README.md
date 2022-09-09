@@ -12,7 +12,7 @@ import salesforce_text_formatter as sf
 
 ### SQL formatter 
 
-All you have to do is instantiate the SQLFormatter class with the `sql_object` argument.
+All you have to do is instantiate the `SQLFormatter` class with the `sql_object` argument.
 
 `sf.format.SqlFormatter(sql_object)`
 
@@ -31,12 +31,15 @@ Example
 sql_object = {
     'fields': ['lease_termination_one_off__c', 'lease_termination_due_rent__c', 'reverse_to_original_contiditons__c', 'cost_of_reversal__c', 'stock_transfer_cost__c', 'shrinkage_cost__c', 'personnel_costs__c', 'other_costs__c', 'additional_comments__c', 'equipment_relocated__c', 'equipment_stored__c', 'equipment_related_costs__c', 'closure_date__c', 'handover_date__c', 'closure_reason__c', 'reopening_date__c', 'is_temporarily_closing__c'],
     'object': "AgentWork",
-    'object_abreviation': "acc",  
+    'object_abreviation': "a",  
 }
 ```
+
+--------------------
+
 ### Yaml config formatter
 
-All you have to do is instantiate the SQLFormatter class with the `yaml_object` argument.
+All you have to do is instantiate the `ConfigFormatter` class with the `yaml_object` argument.
 
 `sf.format.ConfigFormatter(yaml_object)`
 
