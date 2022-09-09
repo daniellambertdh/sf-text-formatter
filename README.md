@@ -21,7 +21,8 @@ sql_object = {
     'object_abreviation': "object abreviation goes here (e.g. opp) : str"
     }
 ```
-e.g.
+
+Example
 ```
 sql_object = {
     'fields': ['lease_termination_one_off__c', 'lease_termination_due_rent__c', 'reverse_to_original_contiditons__c', 'cost_of_reversal__c', 'stock_transfer_cost__c', 'shrinkage_cost__c', 'personnel_costs__c', 'other_costs__c', 'additional_comments__c', 'equipment_relocated__c', 'equipment_stored__c', 'equipment_related_costs__c', 'closure_date__c', 'handover_date__c', 'closure_reason__c', 'reopening_date__c', 'is_temporarily_closing__c'],
@@ -41,7 +42,7 @@ yaml_object = {
 }
 ```
 
-E.g.
+Example
 ```
 yaml_object = {
     'object_name' : "AgentWork",
