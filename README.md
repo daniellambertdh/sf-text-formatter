@@ -6,11 +6,15 @@
 
 --------------------
 
+import salesforce_text_formatter as sf
+
+--------------------
+
 ### SQL formatter 
 
 All you have to do is instantiate the SQLFormatter class with the config_object argument.
 
-`SqlFormatter(config_object)`
+`SqlFormatter(sql_object)`
 
 Please pass a dictionary in and you can use the pseudo code below as an example.
 
@@ -32,6 +36,11 @@ sql_object = {
 ```
 ### Yaml config formatter
 
+All you have to do is instantiate the SQLFormatter class with the config_object argument.
+
+`ConfigFormatter(yaml_object)`
+
+Please pass a dictionary in and you can use the pseudo code below as an example.
 
 ```
 yaml_object = {
