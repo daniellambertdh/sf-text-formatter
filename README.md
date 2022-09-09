@@ -19,4 +19,5 @@ config_object = {
     'fields': ['List of fields : list'],  
     'object': "Object name here : str",  
     'object_abreviation': "object abreviation goes here (e.g. opp) : str"
-    }```
+    }
+```
