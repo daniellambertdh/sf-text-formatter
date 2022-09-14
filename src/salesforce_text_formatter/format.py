@@ -50,7 +50,7 @@ AS
 SELECT """)
         for field in range(len(object['fields'])):
             print(
-f"""  {object['object_abreviation']}.{object['fields'][field]} AS {object['fields_v2'][field]},""")
+f"""  {object['object_abreviation']}.{object['fields'][field]} AS {object['fields_v2'][field].lower()},""")
         print(f"""FROM
   `{{{{ params.project_id }}}}.dl_salesforce.salesforce_{object_name_with_undscore}` AS {object['object_abreviation']}""")
 
